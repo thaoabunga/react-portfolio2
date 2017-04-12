@@ -27,16 +27,15 @@ class Sidebar extends Component {
 		  <nav className="sidebar-nav">
 		    <Link to="/home" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">Home</Link>
 		    <Link to="/portfolio" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">My Portfolio</Link>
-		    <Link to="/services" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">My Services</Link>
 		    <Link to="/about" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">About</Link>
 		  </nav>
 
 		  <div className="sidebar-item sidebar-footer">
 
 		    <p>
-				Visit <a href="https://github.com/caljrimmer">My GitHub Repo</a><br/>
-				Visit <a href="https://www.linkedin.com/in/callumrimmer">My Linkedin</a><br/>
-				Visit <a href="https://twitter.com/caljrimmer">My Twitter</a><br/>
+				Visit <a href="https://github.com/thaoabunga">My GitHub Repo</a><br/>
+				Visit <a href="https://www.linkedin.com/in/lethao">My Linkedin</a><br/>
+				Visit <a href="https://twitter.com/treadlytely">My Twitter</a><br/>
 		    </p>
 
 		    <p>

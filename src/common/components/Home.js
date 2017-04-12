@@ -20,8 +20,7 @@ class Home extends Component {
       	<div className="posts">
   
   			<div className="post banner">
-			    <h1 className="post-title">I build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> enterprise web applications.</h1>
-    			<p>for <em>agencies</em>, <em>bluechips</em>, <em>start-ups</em> and sometimes, <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
+			    <h1 className="post-title">I build <em>web applications,</em> I climb <em>rocks,</em> and I am an active volunteer in <em>Oakland, CA.</em></h1>
 
 			</div>
   
@@ -30,7 +29,7 @@ class Home extends Component {
 				<h2>Technologies I build with:</h2>
 
 				<div className="skill-item clearfix">
-					<h4>Client Side JS</h4>
+					<h4>Client Side</h4>
 					<ul className="">
 						<li><em>Backbone</em></li>
 						<li><em><b>*</b><b>*</b>React</em>
@@ -39,31 +38,22 @@ class Home extends Component {
 								<li><em>Flux</em></li>
 							</ul>
 						</li>
-						<li><em>D3</em></li>
+						<li><em>JS/HTML/CSS</em></li>
 					</ul>
 				</div>
 
 
 				<div className="skill-item clearfix">
-					<h4>Server Side JS</h4>
+					<h4>Server Side</h4>
 					<ul>
-						<li><em>MongoDB</em></li>
+						<li><em>Python</em></li>
 						<li><em><b>*</b>Node</em>
 							<ul>
 								<li><em><b>*</b>Express</em></li>
-								<li><em>Hapi</em></li>
 							</ul>
+						<li><em>Postgres</em></li>
+						<li><em>MongoDB</em></li>
 						</li>
-					</ul>
-				</div>
-
-				<div className="skill-item clearfix">
-					<h4>Testing</h4>
-					<ul>
-						<li><em>Jasmine</em></li>
-						<li><em>Karma</em></li>
-						<li><em>Protractor</em></li>
-						<li><em>Jest</em></li>
 					</ul>
 				</div>
 
@@ -72,14 +62,9 @@ class Home extends Component {
 					<ul className="clearfix">
 						<li><em><b>*</b>Nginx</em></li>
 						<li><em><b>*</b>Webpack</em></li>
-						<li><em>Gulp</em></li>
-						<li><em>Grunt</em></li>
-					</ul>
-				</div>
+						<li><em>Heroku</em></li>
 
-				<div className="exclaimation">
-					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/caljrimmer/portfolio-redux-app">github repo here</a>.</em><br/>
-					<em><b>**</b> Yep, I know React can be used on the server side too. This site is Isomorphical rendered.</em>
+					</ul>
 				</div>
 
   			</div>
@@ -87,16 +72,16 @@ class Home extends Component {
 
   			<div className="post clearfix">
 
-				<h2>Companies I have worked with:</h2>
+				<h2>Organizations I am involved with:</h2>
 
 				<ul className="clients">
-					<li className="goldmans-logo">Goldman Sachs</li>
-					<li className="orange-logo">Orange</li>
-					<li className="tesco-logo">Tesco</li>
-					<li className="timeout-logo">Timeout</li>
-					<li className="wiley-logo">John Wiley and Sons</li>
-					<li className="covestor-logo">Covestor</li>
-					<li className="shipserv-logo">Shipserv</li>
+					<li className="openoakland-logo">OpenOakland</li>
+					<li className="readingpartners-logo">Reading Partners</li>
+					<li className="communityedupart-logo">Community Education Partnerships</li>
+					<li className="hackthehood-logo">Hack the Hood</li>
+					<li className="techtonica-logo">Techtonica</li>
+					<li className="bayareaclimbers-logo">Bay Area Climbers Coalition</li>
+
 				</ul>
 
 			</div>
